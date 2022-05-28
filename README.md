@@ -8,6 +8,10 @@
 
 🐘 Structured PHP code generation and modification through an abstract syntax tree (AST)
 
+> **Warning**
+>
+> This project is not finished yet, work in progress.
+
 ## Installation
 
 You can install the package via composer:
