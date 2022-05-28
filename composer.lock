@@ -1190,12 +1190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/compliance.git",
-                "reference": "36eaaae02be45821a64693223c7483c3ee3d6919"
+                "reference": "bb698ce40dc48be979e132c9fd188bd12fc919bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/compliance/zipball/36eaaae02be45821a64693223c7483c3ee3d6919",
-                "reference": "36eaaae02be45821a64693223c7483c3ee3d6919",
+                "url": "https://api.github.com/repos/ghostwriter/compliance/zipball/bb698ce40dc48be979e132c9fd188bd12fc919bb",
+                "reference": "bb698ce40dc48be979e132c9fd188bd12fc919bb",
                 "shasum": ""
             },
             "require": {
@@ -1267,7 +1267,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-28T05:37:41+00:00"
+            "time": "2022-05-28T21:32:41+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
