@@ -37,6 +37,7 @@
         "nikic/php-parser": "^4.13"
     },
     "require-dev": {
+        "ghostwriter/compliance": "v1.x-dev",
         "phpbench/phpbench": "^1.2",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.16",
