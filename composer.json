@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0,<8.2",
+        "php": ">=8.1,<8.2",
         "ghostwriter/container": "^0.4",
         "ghostwriter/event-dispatcher": "^0.2",
         "ghostwriter/result": "^0.1",
@@ -74,7 +74,10 @@
         "preferred-install": "dist",
         "prepend-autoloader": true,
         "process-timeout": 5000,
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.1.99"
+        }
     },
     "scripts": {
         "cache:clear": [
