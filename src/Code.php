@@ -10,5 +10,4 @@ final class Code
     {
         return true;
     }
-
 }
