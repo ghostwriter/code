@@ -1,6 +1,6 @@
 {
     "name": "ghostwriter/code",
-    "description": "Structured PHP code generation and modification through an abstract syntax tree (AST)",
+    "description": "PHP code generation and modification through an abstract syntax tree (AST)",
     "license": "BSD-3-Clause",
     "type": "library",
     "keywords": [
@@ -31,6 +31,7 @@
     ],
     "require": {
         "php": ">=8.0,<8.2",
+        "ghostwriter/collection": "^0.2.0",
         "ghostwriter/container": "^0.4.0",
         "ghostwriter/event-dispatcher": "^0.3.2",
         "ghostwriter/option": "^0.1.0",
@@ -39,15 +40,13 @@
     },
     "require-dev": {
         "phpbench/phpbench": "^1.2.5",
-        "phpunit/phpunit": "^9.5.20",
-        "psalm/plugin-phpunit": "^0.16.1",
-        "rector/rector": "^0.13.4",
-        "roave/infection-static-analysis-plugin": "^1.19.0",
-        "roave/security-advisories": "dev-latest",
-        "symplify/easy-coding-standard": "^10.2.9",
+        "phpunit/phpunit": "^9.5.21",
+        "psalm/plugin-phpunit": "^0.17.0",
+        "rector/rector": "^0.13.6",
+        "infection/infection": "^0.26.13",
+        "symplify/easy-coding-standard": "^11.0.5",
         "vimeo/psalm": "^4.23.0"
     },
-    "replace": {},
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
