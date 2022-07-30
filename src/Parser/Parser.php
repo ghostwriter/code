@@ -47,9 +47,6 @@ final class Parser implements ParserInterface
 
     private ParserFactory $parserFactory;
 
-    /**
-     * @param Container $container
-     */
     public function __construct(
         private Container $container
     ) {
